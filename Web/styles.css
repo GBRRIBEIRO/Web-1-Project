@@ -1,0 +1,30 @@
+@font-face {
+    font-family: car;
+    src: url("./assets/Dashhorizon-eZ5wg.otf");
+  }
+
+
+body {
+    background-color: #1D3557;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10vw 0px 10vw;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #E63946;
+    font-family: car;
+}
