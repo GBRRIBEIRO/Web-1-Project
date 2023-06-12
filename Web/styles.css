@@ -33,3 +33,29 @@ h1 {
 h2 {
     color: #A8DADC;
 }
+
+.carSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carTitle{
+    background-color: #E63946;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-evenly; 
+}
+.carDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #457B9D;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70%;
+}
