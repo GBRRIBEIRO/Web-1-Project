@@ -10,8 +10,20 @@ function getData(){
 }
 
 function buildPage(){
+    var myData;
     console.log('Building');
-    var myData = getData();
+    myData = getData();
     document.getElementById('CAR').innerHTML = myData[0].modelo;
     
+}
+
+function detailsClick(id){
+ 
+    if (document.getElementById(id).style.display =='flex') {
+        document.getElementById(id).style.display = 'none';
+    }
+    else {
+        document.getElementById(id).style.display = 'flex';
+    
+    }
 }
