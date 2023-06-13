@@ -15,9 +15,9 @@
     <div class="header">
         <img src="assets/logo.png" class="logo">
     </div>
-    <section id="carsection" class="carSection">
+    <section id="carsection" class="carSection" style="padding: 10px;">
         <div class="carTitle">
-            <img src="assets/SubaruImpreza.jpeg"style="height: 80%; border-radius: 20px;">
+            <img src="assets/SubaruImpreza.jpeg"style="height: 90%; border-radius: 20px;">
             <h2>Subaru</h2>
             <h2>Impeza</h2>
             <h2>2009</h2>
@@ -32,8 +32,65 @@
                 <a href="pages/impreza.html">More info</a>
             </h2>
         </div>
-        
     </section>
+
+    <section id="carsection" class="carSection" style="padding: 10px;">
+        <div class="carTitle">
+            <img src="assets/ChevyOpala.jpg"style="height: 90%; border-radius: 20px;">
+            <h2>Chevrolet</h2>
+            <h2>Opala</h2>
+            <h2>1974</h2>
+            <button onclick="detailsClick('opalaDetails')">
+                <img width="30vh" height="30vh" src="https://img.icons8.com/ios-filled/50/bulleted-list.png" alt="bulleted-list"/>
+            </button>
+        </div>
+        <div id="opalaDetails" class="carDetails" style="display: none;">
+            <h2>0-100: 13,5s</h2>
+            <h2>Max-speed: 174 Km/h</h2>
+            <h2>
+                <a href="pages/opala.html">More info</a>
+            </h2>
+        </div>
+    </section>
+
+    <section id="carsection" class="carSection" style="padding: 10px;">
+        <div class="carTitle">
+            <img src="assets/civicVti.jpeg"style="height: 90%; border-radius: 20px;">
+            <h2>Honda</h2>
+            <h2>Civic VTI</h2>
+            <h2>1993</h2>
+            <button onclick="detailsClick('vtiDetails')">
+                <img width="30vh" height="30vh" src="https://img.icons8.com/ios-filled/50/bulleted-list.png" alt="bulleted-list"/>
+            </button>
+        </div>
+        <div id="vtiDetails" class="carDetails" style="display: none;">
+            <h2>0-100: 7,3s</h2>
+            <h2>Max-speed: 215 Km/h</h2>
+            <h2>
+                <a href="pages/vti.html">More info</a>
+            </h2>
+        </div>
+    </section>
+
+    <section id="carsection" class="carSection" style="padding: 10px;">
+        <div class="carTitle">
+            <img src="assets/golf.jpg"style="height: 90%; border-radius: 20px;">
+            <h2>Volkswagen</h2>
+            <h2>Golf TSI</h2>
+            <h2>2014</h2>
+            <button onclick="detailsClick('golfDetails')">
+                <img width="30vh" height="30vh" src="https://img.icons8.com/ios-filled/50/bulleted-list.png" alt="bulleted-list"/>
+            </button>
+        </div>
+        <div id="golfDetails" class="carDetails" style="display: none;">
+            <h2>0-100: 8,4s</h2>
+            <h2>Max-speed: 212 Km/h</h2>
+            <h2>
+                <a href="pages/golf.html">More info</a>
+            </h2>
+        </div>
+    </section>
+
     
 </body>
 <script>

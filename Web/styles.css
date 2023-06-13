@@ -64,3 +64,7 @@ button {
     border: none;
     background-color: #E63946;
 }
+
+iframe {
+    border-radius: 20px; border-color: #E63946; border-width: 5px;
+}
